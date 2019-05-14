@@ -1,14 +1,28 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "workrequest": [
+    { 
+      "id": 1, 
+      "baie": "SC/C08",
+      "datacenter": "Sophia",
+      "idmachine": 7972,
+      "rue": "Rue 3",
+      "slots": "14 [front],14[front]" 
+    },
+    { 
+      "id": 2, 
+      "baie": "SC/C05",
+      "datacenter": "Sophia",
+      "idmachine": 5050,
+      "rue": "Rue 1",
+      "slots": "12 [front],10[front]" 
+    },
+    { 
+      "id": 3, 
+      "baie": "SC/C01",
+      "datacenter": "Sophia",
+      "idmachine": 4829,
+      "rue": "Rue 50",
+      "slots": "20 [front],12[front]" 
+    },
+  ]
 }
