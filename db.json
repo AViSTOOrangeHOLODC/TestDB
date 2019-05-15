@@ -1,13 +1,46 @@
 {
   "workrequest": [
     { 
-      "id": 1, "baie": "SC/C08", "datacenter": "Sophia", "idmachine": 7972, "rue": "Rue 30", "slots": "14 [front],14[front]" 
+      "id": 1, "baie": "SC/C08", "datacenter": "Sophia", "idmachine": 7972, "rue": "Rue 30", "slots": "14 [front], 14 [front]",
+      "material" : [
+       "4 vis de type 3",
+       "2 DD SSD 2Go Samsung",
+       "Câble réseau type 6 de 30 m"
+       ],
+      "steps" : [
+        "Installer les 2 DD SSD dans les slots.",
+        "Viser chaque disque dur à l'aide de 2 vis de type 3.",
+        "Brancher le câble réseau.",
+        "Vérifier que l'installation fonctionne."
+      ]
     },
     { 
-      "id": 2, "baie": "SC/C08", "datacenter": "Sophia", "idmachine": 8000, "rue": "Rue 3", "slots": "20 [front],14[front]" 
+      "id": 2, "baie": "SC/C08", "datacenter": "Sophia", "idmachine": 8000, "rue": "Rue 3", "slots": "20 [front]",
+      "material" : [
+       "4 vis de type 3",
+       "1 DD SSD 30Go Samsung",
+       "Câble réseau type 6 de 30 m"
+       ],
+      "steps" : [
+        "Installer le SSD dans le slots.",
+        "Viser chaque disque dur à l'aide de 2 vis de type 3.",
+        "Brancher le câble réseau.",
+        "Vérifier que l'installation fonctionne."
+      ]
     },
     { 
-      "id": 3, "baie": "SC/C08", "datacenter": "Sophia", "idmachine": 2564, "rue": "Rue 1", "slots": "18 [front],15[front]" 
+      "id": 3, "baie": "SC/C08", "datacenter": "Sophia", "idmachine": 2564, "rue": "Rue 1", "slots": "18 [front], 15 [front]",
+      "material" : [
+       "4 vis de type 3",
+       "2 DD SSD 2Go Samsung",
+       "Câble réseau type 6 de 30 m"
+       ],
+      "steps" : [
+        "Installer les 2 DD SSD dans les slots.",
+        "Viser chaque disque dur à l'aide de 2 vis de type 3.",
+        "Brancher le câble réseau.",
+        "Vérifier que l'installation fonctionne."
+      ]
     }
   ]
 }
