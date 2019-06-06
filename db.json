@@ -1,89 +1,85 @@
 {
-  "workrequests": [
-    { 
-      "id": 1,
-	  "datacenter": "Sophia",
-	  "description" : "Changer le disque dur 4 du Serveur 7972"
-	  "street": "Rue 30",
-	  "rack": "SC/C08",
-	  "idmachine": 7972, 
-	  "slots": "14 [front], 14 [front]",
-	  
-	  "equipments" : [
-		{
-			"id" : DD01,
-			"name" : "DD SSD 2To Samsung",
-			"image" : ""
-		}
-       ],
-	  
-	  "steps": [
-		{
-			"number" : 1,
-			"description" : "Ouvrir la porte de la baie.",
-			"image" : ""
-		},
-		
-		{
-			"number" : 2,
-			"description" : "Identifier le Serveur 7972.",
-			"image" : ""
-		},
-		{
-			"number" : 3,
-			"description" : "Eteindre le disque dur 4.",
-			"image" : ""
-		},
-		{
-			"number" : 4,
-			"description" : "Installer les 2 DD SSD dans les slots.",
-			"image" : ""
-		},
-		{
-			"number" : 5,
-			"description" : "Vérifier que le voyant est étaint",
-			"image" : ""
-		},
-		{
-			"number" : 6,
-			"description" : "Dévisser le disque dur pour l'extraire du serveur.",
-			"image" : ""
-		},
-		{
-			"number" : 7,
-			"description" : "Débrancher le bus du DD.",
-			"image" : ""
-		},
-		{
-			"number" : 8,
-			"description" : "Brancher le bus sur le nouveau disque dur.",
-			"image" : ""
-		},
-		
-		{
-			"number" : 9,
-			"description" : "Insérer le nouveau disque dur.",
-			"image" : ""
-		},
-		{
-			"number" : 10,
-			"description" : "Visser le disque dur.",
-			"image" : ""
-		},
-		{
-			"number" : 11,
-			"description" : "Allumer le disque dur installé.",
-			"image" : ""
-		},
-		{
-			"number" : 12,
-			"description" : "Vérifier que le voyant clignote 5 s puis se fige en vert.",
-			"image" : ""
-		},
-		{
-			"number" : 13,
-			"description" : "Refermer la porte de la baie.",
-			"image" : ""
-		}]
-	}]	
+	"workrequests": [{
+		"id": 1,
+		"datacenter": "Sophia",
+		"description": "Changer le disque dur 4 du Serveur 7972",
+		"street": "Rue 30",
+		"rack": "SC/C08",
+		"idmachine": 7972,
+		"slots": "14 [front], 14 [front]",
+		"equipments": [{
+			"id": "DD01",
+			"name": "DD SSD 2To Samsung",
+			"image": ""
+		}],
+
+		"steps": [{
+				"number": 1,
+				"description": "Ouvrir la porte de la baie.",
+				"image": ""
+			},
+
+			{
+				"number": 2,
+				"description": "Identifier le Serveur 7972.",
+				"image": ""
+			},
+			{
+				"number": 3,
+				"description": "Eteindre le disque dur 4.",
+				"image": ""
+			},
+			{
+				"number": 4,
+				"description": "Installer les 2 DD SSD dans les slots.",
+				"image": ""
+			},
+			{
+				"number": 5,
+				"description": "Vérifier que le voyant est étaint",
+				"image": ""
+			},
+			{
+				"number": 6,
+				"description": "Dévisser le disque dur pour l'extraire du serveur.",
+				"image": ""
+			},
+			{
+				"number": 7,
+				"description": "Débrancher le bus du DD.",
+				"image": ""
+			},
+			{
+				"number": 8,
+				"description": "Brancher le bus sur le nouveau disque dur.",
+				"image": ""
+			},
+
+			{
+				"number": 9,
+				"description": "Insérer le nouveau disque dur.",
+				"image": ""
+			},
+			{
+				"number": 10,
+				"description": "Visser le disque dur.",
+				"image": ""
+			},
+			{
+				"number": 11,
+				"description": "Allumer le disque dur installé.",
+				"image": ""
+			},
+			{
+				"number": 12,
+				"description": "Vérifier que le voyant clignote 5 s puis se fige en vert.",
+				"image": ""
+			},
+			{
+				"number": 13,
+				"description": "Refermer la porte de la baie.",
+				"image": ""
+			}
+		]
+	}]
 }
