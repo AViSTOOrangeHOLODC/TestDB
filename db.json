@@ -10,7 +10,8 @@
 		"equipments": [{
 			"id": "DD01",
 			"name": "DD SSD 2To Samsung",
-			"image": ""
+			"image": "",
+			"quantity": 1
 		}],
 
 		"steps": [{
