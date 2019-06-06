@@ -1,7 +1,5 @@
 {
   "workrequests": [
-    
-    "workrequest":
     { 
       "id": 1,
 	  "datacenter": "Sophia",
@@ -86,7 +84,6 @@
 			"number" : 13,
 			"description" : "Refermer la porte de la baie.",
 			"image" : ""
-		}
-		]	
-	}
-]
+		}]
+	}]	
+}
