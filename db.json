@@ -82,5 +82,53 @@
 				"image": ""
 			}
 		]
+	},
+	{
+		"id": 2,
+		"datacenter": "Sophia",
+		"description": "Modifier le brassage réseau sur le switch 1259 de la baie SC/C27.",
+		"street": "Rue 30",
+		"rack": "SC/C27",
+		"idmachine": 1259,
+		"slots": "14 [front], 14 [front]",
+
+		"equipments": [{
+			"id": "RJ45 - 0.5",
+			"name": "Câble RJ45 - 0.5m",
+			"image": "",
+			"quantity": 2
+		}],
+
+		"steps": [{
+				"number": 1,
+				"description": "Ouvrir la porte de la baie.",
+				"image": ""
+			},
+
+			{
+				"number": 2,
+				"description": "Brancher une extrémité du câble RJ45-0.5 sur le port 12 du switch.",
+				"image": ""
+			},
+
+			{
+				"number": 3,
+				"description": "Brancher l'autre extrêmité du câble RJ45-0.5 sur le port 5 du serveur.",
+				"image": ""
+			},
+
+			{
+				"number": 4,
+				"description": "Vérifier que le voyant du port 12 du switch clignote en vert.",
+				"image": ""
+			},
+
+			{
+				"number": 5,
+				"description": "Fermer la porte de la baie.",
+				"image": ""
+			}
+
+		]
 	}]
 }
