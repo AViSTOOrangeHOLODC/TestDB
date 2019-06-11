@@ -10,7 +10,7 @@
 		"equipments": [{
 			"id": "DD01",
 			"name": "DD SSD 2To Samsung",
-			"image": "",
+			"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/hard_drive_image.png",
 			"quantity": 1
 		}],
 
@@ -95,7 +95,7 @@
 		"equipments": [{
 			"id": "RJ45 - 0.5",
 			"name": "Câble RJ45 - 0.5m",
-			"image": "",
+			"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/RJ-45.png",
 			"quantity": 2
 		}],
 
