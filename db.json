@@ -17,7 +17,7 @@
 		"steps": [{
 				"number": 1,
 				"description": "Ouvrir la porte de la baie.",
-				"image": ""
+				"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/take_hard_drive.jpg"
 			},
 
 			{
@@ -33,7 +33,7 @@
 			{
 				"number": 4,
 				"description": "Installer les 2 DD SSD dans les slots.",
-				"image": ""
+				"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/take_hard_drive.jpg"
 			},
 			{
 				"number": 5,
