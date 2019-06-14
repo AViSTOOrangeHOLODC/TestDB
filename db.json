@@ -11,124 +11,123 @@
 			"id": "DD01",
 			"name": "DD SSD 2To Samsung",
 			"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/hard_drive_image.png",
-			"quantity": 1
+			"quantity" : 1
 		}],
 
 		"steps": [{
 				"number": 1,
 				"description": "Ouvrir la porte de la baie.",
-				"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/take_hard_drive.jpg"
+				"image": "https://www.varistar.fr/src/datentechnik_big.png"
 			},
 
 			{
 				"number": 2,
 				"description": "Identifier le Serveur 7972.",
-				"image": ""
+				"image": "https://cdn2.nextinpact.com/images/bd/news/171912.png"
 			},
 			{
 				"number": 3,
 				"description": "Eteindre le disque dur 4.",
-				"image": ""
+				"image": "https://www.maison-et-domotique.com/wp-content/uploads/2012/08/IMG_6122.jpg"
 			},
 			{
 				"number": 4,
-				"description": "Installer les 2 DD SSD dans les slots.",
-				"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/take_hard_drive.jpg"
+				"description": "Vérifier que le voyant est éteint",
+				"image": ""
 			},
 			{
 				"number": 5,
-				"description": "Vérifier que le voyant est étaint",
-				"image": ""
+				"description": "Extraire le disque dur du serveur.",
+				"image": "https://www.maison-et-domotique.com/wp-content/uploads/2012/08/IMG_6122.jpg"
 			},
 			{
 				"number": 6,
-				"description": "Dévisser le disque dur pour l'extraire du serveur.",
-				"image": ""
+				"description": "Débrancher le bus du DD.",
+				"image": "http://img.clubic.com/00411753-photo-montage-pc-disque-dur-s-ata.jpg"
 			},
 			{
 				"number": 7,
-				"description": "Débrancher le bus du DD.",
-				"image": ""
+				"description": "Brancher le bus sur le nouveau disque dur.",
+				"image": "http://img.clubic.com/00411753-photo-montage-pc-disque-dur-s-ata.jpg"
 			},
 			{
 				"number": 8,
-				"description": "Brancher le bus sur le nouveau disque dur.",
-				"image": ""
+				"description": "Insérer le nouveau disque dur dans le slot.",
+				"image": "https://www.maison-et-domotique.com/wp-content/uploads/2012/08/IMG_6122.jpg"
 			},
-
 			{
 				"number": 9,
-				"description": "Insérer le nouveau disque dur.",
-				"image": ""
-			},
-			{
-				"number": 10,
-				"description": "Visser le disque dur.",
-				"image": ""
-			},
-			{
-				"number": 11,
 				"description": "Allumer le disque dur installé.",
 				"image": ""
 			},
 			{
-				"number": 12,
+				"number": 10,
 				"description": "Vérifier que le voyant clignote 5 s puis se fige en vert.",
 				"image": ""
 			},
 			{
-				"number": 13,
+				"number": 11,
 				"description": "Refermer la porte de la baie.",
-				"image": ""
+				"image": "https://www.varistar.fr/src/datentechnik_big.png"
 			}
 		]
 	},
-	{
-		"id": 2,
-		"datacenter": "Sophia",
-		"description": "Modifier le brassage réseau sur le switch 1259 de la baie SC/C27.",
-		"street": "Rue 30",
-		"rack": "SC/C27",
-		"idmachine": 1259,
-		"slots": "14 [front], 14 [front]",
-
-		"equipments": [{
-			"id": "RJ45 - 0.5",
-			"name": "Câble RJ45 - 0.5m",
-			"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/RJ-45.png",
-			"quantity": 2
-		}],
-
-		"steps": [{
-				"number": 1,
-				"description": "Ouvrir la porte de la baie.",
-				"image": ""
-			},
-
-			{
-				"number": 2,
-				"description": "Brancher une extrémité du câble RJ45-0.5 sur le port 12 du switch.",
-				"image": ""
-			},
-
-			{
-				"number": 3,
-				"description": "Brancher l'autre extrêmité du câble RJ45-0.5 sur le port 5 du serveur.",
-				"image": ""
-			},
-
-			{
-				"number": 4,
-				"description": "Vérifier que le voyant du port 12 du switch clignote en vert.",
-				"image": ""
-			},
-
-			{
-				"number": 5,
-				"description": "Fermer la porte de la baie.",
-				"image": ""
-			}
-
+	{ 
+      "id": 2,
+	  "datacenter": "Sophia",
+	  "description" : "Ajouter une connexion entre le Serveur 2 de la Baie SC/C27 et le switch 1259.",
+	  "street": "Rue 30",
+	  "rack": "SC/C27",
+	  "idmachine": 1259, 
+	  "slots": "14 [front], 14 [front]",
+	  
+	  "equipments": [	
+		{
+			"id" : "SW2732-16",
+			"name" : "Switch - 16 ports",
+			"image" : "https://static.fnac-static.com/multimedia/Images/FR/MC/56/bc/c8/29932630/1540-1/tsp20170513055354/Switch-reseau-RJ45-rackable-10-19-16-ports-Gigabit.jpg",
+			"quantity" : 1
+		},
+				{
+			"id" : "RJ45-1",
+			"name" : "Câble RJ45 - 1m",
+			"image" : "https://raw.githubusercontent.com/antoined73/TestDB/master/RJ-45.png",
+			"quantity" : 1
+		}
+	   ],
+	   
+	  "steps": [
+		{
+			"number" : 1,
+			"description" : "Ouvrir la porte de la baie SC/C27.",
+			"image" : "https://www.varistar.fr/src/datentechnik_big.png"
+		},
+		
+		{
+			"number" : 2,
+			"description" : "Brancher une extrémité du câble RJ45-1 sur le port 12 du Switch SW2732-16.",
+			"image" : "https://www.intendancezone.net/local/cache-vignettes/L600xH447/DSCF7023-79c92.jpg?1499944259"
+		},
+		
+		{
+			"number" : 3,
+			"description" : "Brancher l'autre extrêmité du câble RJ45-1 sur le port 5 du Serveur 2 de la Baie SC/C27.",
+			"image" : "https://i.ytimg.com/vi/HrL0LPiy9CY/maxresdefault.jpg"
+		},
+		
+		{
+			"number" : 4,
+			"description" : "Vérifier que le voyant du port 12 du Switch SW2732-16 clignote en vert.",
+			"image" : ""
+		},
+		
+		{
+			"number" : 5,
+			"description" : "Fermer la porte de la baie.",
+			"image" : "https://www.varistar.fr/src/datentechnik_big.png"
+		}
+		
 		]
-	}]
+	}
+]
 }
