@@ -146,7 +146,7 @@
 		{
 			"id": "Routeur01",
 			"name": "Routeur Wireless Linksys",
-			"image": "https://github.com/antoined73/TestDB/blob/master/routeur.jpg?raw=true",
+			"image": "https://github.com/antoined73/TestDB/blob/master/routeur.png?raw=true",
 			"quantity" : 1
 		},
 		{
@@ -159,38 +159,37 @@
 		"steps": [{
 				"number": 1,
 				"description": "Ouvrir la porte de la baie.",
-				"image": "https://github.com/antoined73/TestDB/blob/master/1.jpg?raw=true"
+				"image": "https://github.com/antoined73/TestDB/blob/master/1.png?raw=true"
 			},
-
 			{
 				"number": 2,
 				"description": "Poser le routeur.",
-				"image": "https://github.com/antoined73/TestDB/blob/master/2.jpg?raw=true"
+				"image": "https://github.com/antoined73/TestDB/blob/master/2.png?raw=true"
 			},
 			{
 				"number": 3,
 				"description": "Brancher le routeur à sa source d'alimentation.",
-				"image": "https://github.com/antoined73/TestDB/blob/master/3.jpg?raw=true"
+				"image": "https://github.com/antoined73/TestDB/blob/master/3.png?raw=true"
 			},
 			{
 				"number": 4,
 				"description": "Connecter avec un câble RJ45 le routeur sur un de ses ports LAN au port A1 du switch.",
-				"image": "https://github.com/antoined73/TestDB/blob/master/4.jpg?raw=true"
+				"image": "https://github.com/antoined73/TestDB/blob/master/4.png?raw=true"
 			},
 			{
 				"number": 5,
 				"description": "Connecter avec l'autre câble RJ45 le port A8 du switch au port B24.",
-				"image": "https://github.com/antoined73/TestDB/blob/master/5.jpg?raw=true"
+				"image": "https://github.com/antoined73/TestDB/blob/master/5.png?raw=true"
 			},
 			{
 				"number": 6,
 				"description": "Poser le disque dur sur le switch.",
-				"image": "https://github.com/antoined73/TestDB/blob/master/6.jpg?raw=true"
+				"image": "https://github.com/antoined73/TestDB/blob/master/6.png?raw=true"
 			},
 			{
 				"number": 7,
 				"description": "Refermer la baie.",
-				"image": "https://github.com/antoined73/TestDB/blob/master/7.jpg?raw=true"
+				"image": "https://github.com/antoined73/TestDB/blob/master/7.png?raw=true"
 			}
 		]
 	}
