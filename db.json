@@ -4,7 +4,7 @@
 		"datacenter": "Sophia",
 		"description": "Changer le disque dur 4 du Serveur 7972",
 		"street": "Rue 30",
-		"rack": "SC/C08",
+		"rack": "SC/F02",
 		"idmachine": 7972,
 		"slots": "14 [front], 14 [front]",
 		"equipments": [{
