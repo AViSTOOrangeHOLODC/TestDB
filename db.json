@@ -1,77 +1,53 @@
 {
 	"workrequests": [{
-		"id": 1,
-		"datacenter": "Sophia",
-		"description": "Changer le disque dur 4 du Serveur 7972",
-		"street": "Rue 30",
-		"rack": "SC/F02",
-		"idmachine": 7972,
-		"slots": "14 [front], 14 [front]",
-		"equipments": [{
-			"id": "DD01",
-			"name": "DD SSD 2To Samsung",
-			"image": "https://raw.githubusercontent.com/antoined73/TestDB/master/hard_drive_image.png",
-			"quantity" : 1
-		}],
-
-		"steps": [{
-				"number": 1,
-				"description": "Ouvrir la porte de la baie.",
-				"image": "https://www.varistar.fr/src/datentechnik_big.png"
-			},
-
-			{
-				"number": 2,
-				"description": "Identifier le Serveur 7972.",
-				"image": "https://cdn2.nextinpact.com/images/bd/news/171912.png"
-			},
-			{
-				"number": 3,
-				"description": "Eteindre le disque dur 4.",
-				"image": "https://www.maison-et-domotique.com/wp-content/uploads/2012/08/IMG_6122.jpg"
-			},
-			{
-				"number": 4,
-				"description": "Vérifier que le voyant est éteint",
-				"image": ""
-			},
-			{
-				"number": 5,
-				"description": "Extraire le disque dur du serveur.",
-				"image": "https://www.maison-et-domotique.com/wp-content/uploads/2012/08/IMG_6122.jpg"
-			},
-			{
-				"number": 6,
-				"description": "Débrancher le bus du DD.",
-				"image": "http://img.clubic.com/00411753-photo-montage-pc-disque-dur-s-ata.jpg"
-			},
-			{
-				"number": 7,
-				"description": "Brancher le bus sur le nouveau disque dur.",
-				"image": "http://img.clubic.com/00411753-photo-montage-pc-disque-dur-s-ata.jpg"
-			},
-			{
-				"number": 8,
-				"description": "Insérer le nouveau disque dur dans le slot.",
-				"image": "https://www.maison-et-domotique.com/wp-content/uploads/2012/08/IMG_6122.jpg"
-			},
-			{
-				"number": 9,
-				"description": "Allumer le disque dur installé.",
-				"image": ""
-			},
-			{
-				"number": 10,
-				"description": "Vérifier que le voyant clignote 5 s puis se fige en vert.",
-				"image": ""
-			},
-			{
-				"number": 11,
-				"description": "Refermer la porte de la baie.",
-				"image": "https://www.varistar.fr/src/datentechnik_big.png"
-			}
-		]
-	},
+   "id":1,
+   "datacenter":"Sophia",
+   "description":"Changer le disque dur 1 du Serveur 797200 de la Baie SC/08",
+   "street":"C",
+   "rack":"SC/C08",
+   "idmachine":797200,
+   "slots":"14 [front], 14 [front]",
+   "equipments":[
+      {
+         "id":"524135",
+         "name":"DD DELL T857K -R SAS 3.5 pouces 450 Gigas 15 Krp",
+         "image":"https://i2.cdscdn.com/pdt2/5/3/8/1/700x700/del3663959032538/rw/disque-dur-dell-t857k-r-sas-3-5-450-gigas-15-krp.jpg",
+         "quantity":1
+      }
+   ],
+   "steps":[
+      {
+         "number":1,
+         "description":"Ouvrir la porte de la baie SC/C08.",
+         "image":"https://www.picclickimg.com/d/l400/pict/192790534524_/RR-F5-18-M-18U-Server-Rack-Cabinet-600mm-W.jpg"
+      },
+      {
+         "number":2,
+         "description":"Ouvir la face avant du Serveur DELL 797200. Le serveur se trouve à l'emplacement 14 du rack.",
+         "image":"http://i.dell.com/das/xa.ashx/global-site-design%20WEB/5274dd09-a073-2ebb-d504-5ebbbca436b2/1/OriginalJPG?id=Dell/Product_Images/Dell_Enterprise_Products/Storage_Systems/EqualLogic/Equallogic_ps4100e/overview/storage-equallogic-ps4100e-overview.jpg"
+      },
+      {
+         "number":3,
+         "description":"Retirer le disque dur de la rangée 1 du Serveur 797200. Appuyer sur le disque dur pour qu'il se déclipse, puis retirer le.",
+         "image":"https://www.maison-et-domotique.com/wp-content/uploads/2012/08/IMG_6122.jpg"
+      },
+      {
+         "number":4,
+         "description":"Mettre en place le nouveau disque dur sur la rangée 1. Placer le disque dur dans la rangée vide, puis appuyer pour le clisper.",
+         "image":"https://www.maison-et-domotique.com/wp-content/uploads/2012/08/IMG_6122.jpg"
+      },
+      {
+         "number":5,
+         "description":"Refermer la face avant du Serveur DELL 797200.",
+         "image":"http://i.dell.com/das/xa.ashx/global-site-design%20WEB/5274dd09-a073-2ebb-d504-5ebbbca436b2/1/OriginalJPG?id=Dell/Product_Images/Dell_Enterprise_Products/Storage_Systems/EqualLogic/Equallogic_ps4100e/overview/storage-equallogic-ps4100e-overview.jpg"
+      },
+      {
+         "number":6,
+         "description":"Fermer la porte de la baie.",
+         "image":"https://www.picclickimg.com/d/l400/pict/192790534524_/RR-F5-18-M-18U-Server-Rack-Cabinet-600mm-W.jpg"
+      }
+   ]
+},
 	{ 
       "id": 2,
 	  "datacenter": "Sophia",
