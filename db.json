@@ -4,7 +4,7 @@
    "datacenter":"Sophia",
    "description":"Changer le disque dur 1 du Serveur 797200 de la Baie SC/08",
    "street":"C",
-   "rack":"SC/C08",
+   "rack":"SC/K02",
    "idmachine":797200,
    "slots":"14 [front], 14 [front]",
    "equipments":[
